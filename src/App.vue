@@ -1,50 +1,37 @@
 <template>
-  <div>
-    <header>
-      <nav>
-        <ul>
-          <li><a @click="showTodos" href="#">Todos</a></li>
-          <li><a @click="showPosts" href="#">Posts</a></li>
-        </ul>
-      </nav>
-    </header>
+  <q-layout view="lHh Lpr lFf">
+    <q-header elevated>
+      <q-toolbar>
+        <q-toolbar-title>
+          <router-link to="/" class="q-mr-xs">Home</router-link>
+          <router-link to="/todos" class="q-mr-xs">Todos</router-link>
+          <router-link to="/posts" class="q-mr-xs">Posts</router-link>
+          <router-link to="/albums" class="q-mr-xs">Albums</router-link>
+        </q-toolbar-title>
+      </q-toolbar>
+    </q-header>
 
-    <div id="content">
-      <Todos v-if="showing === 'todos'" />
-      <Posts v-else-if="showing === 'posts'" />
-    </div>
-  </div>
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+  </q-layout>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import Todos from './components/Todos.vue';
-import Posts from './components/Posts.vue';
+import { defineComponent } from 'vue'
 
-const showing = ref('todos');
+// Optionally, you can import Quasar plugins or components here
+// import { Quasar, Notify } from 'quasar'
+// import { useQuasar } from 'quasar'
 
-const showTodos = () => {
-  showing.value = 'todos';
-};
+const app = defineComponent({
+  name: 'App'
+})
 
-const showPosts = () => {
-  showing.value = 'posts';
-};
+// const $q = useQuasar()
+// $q.notify({ message: 'Quasar is ready!' })
 </script>
 
-<style scoped>
-header {
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
+<style>
+/* Anda dapat menyesuaikan gaya di sini */
 </style>

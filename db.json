@@ -1,0 +1,28 @@
+{
+    "albums": [
+      { "userId": 1, "id": 1, "title": "Clorinde" },
+      { "userId": 1, "id": 2, "title": "Raiden" },
+      { "userId": 1, "id": 3, "title": "Acheron" },
+      { "userId": 1, "id": 4, "title": "kafka" },
+      { "userId": 1, "id": 5, "title": "FireFly" }
+    ],
+    "photos": [
+      { "albumId": 1, "id": 1, "title": "Clorinde Genshin", "url": "https://i.pinimg.com/736x/fb/86/6f/fb866f0817ce90bcd3642c9e43c10513.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/fb/86/6f/fb866f0817ce90bcd3642c9e43c10513.jpg"},
+      { "albumId": 1, "id": 2, "title": "Clorinde Genshin", "url": "https://i.pinimg.com/736x/47/77/ba/4777ba19fc5cad907c188bb29857b1a7.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/47/77/ba/4777ba19fc5cad907c188bb29857b1a7.jpg" },
+      { "albumId": 1, "id": 3, "title": "Clorinde Genshin", "url": "https://i.pinimg.com/736x/77/bf/a6/77bfa6df4143360da5214ce1ee95ba76.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/77/bf/a6/77bfa6df4143360da5214ce1ee95ba76.jpg" },
+      { "albumId": 2, "id": 4, "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae", "url": "https://i.pinimg.com/564x/cc/8a/3f/cc8a3f7ea6b5200369101816e06d6eb2.jpg", "thumbnailUrl": "https://i.pinimg.com/564x/cc/8a/3f/cc8a3f7ea6b5200369101816e06d6eb2.jpg" },
+      { "albumId": 2, "id": 5, "title": "natus nisi omnis corporis facere molestiae rerum in", "url": "https://i.pinimg.com/736x/77/ef/1b/77ef1be546029b3d243d7c0f5f03cc24.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/77/ef/1b/77ef1be546029b3d243d7c0f5f03cc24.jpg" },
+      { "albumId": 2, "id": 6, "title": "accusamus ea aliquid et amet sequi nemo", "url": "https://i.pinimg.com/564x/70/13/77/7013778ae2f7d489d77f037cd275f8d8.jpg", "thumbnailUrl": "https://i.pinimg.com/564x/70/13/77/7013778ae2f7d489d77f037cd275f8d8.jpg" },
+      { "albumId": 3, "id": 7, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/736x/de/85/29/de85299de517648e1132248568038105.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/de/85/29/de85299de517648e1132248568038105.jpg" },
+      { "albumId": 3, "id": 8, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/736x/e1/b3/df/e1b3df0e96bc0598d6d7177fdb2a0692.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/e1/b3/df/e1b3df0e96bc0598d6d7177fdb2a0692.jpg" },
+      { "albumId": 3, "id": 9, "title": "aut porro officiis laborum odit ea laudantium corporis", "url": "https://i.pinimg.com/736x/7b/d9/6f/7bd96fe9b9eb0f9815734349ad9a626e.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/7b/d9/6f/7bd96fe9b9eb0f9815734349ad9a626e.jpg" },
+      { "albumId": 4, "id": 10, "title": "qui eius qui autem sed", "url": "https://i.pinimg.com/564x/ef/d6/00/efd600897cf3a933ea1f3a330a359caf.jpg", "thumbnailUrl": "https://i.pinimg.com/564x/ef/d6/00/efd600897cf3a933ea1f3a330a359caf.jpg" },
+      { "albumId": 4, "id": 11, "title": "beatae et provident et ut vel", "url": "https://i.pinimg.com/564x/c5/85/51/c585513674d6b2815188f0cb09b55b87.jpg", "thumbnailUrl": "https://i.pinimg.com/564x/c5/85/51/c585513674d6b2815188f0cb09b55b87.jpg" },
+      { "albumId": 4, "id": 12, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/736x/98/69/63/986963a865f816b9d82d0fd32b07e06c.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/98/69/63/986963a865f816b9d82d0fd32b07e06c.jpg" },
+      { "albumId": 5, "id": 13, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/736x/d2/a3/b5/d2a3b5566bd3f6d4cc2228ec9024bcd4.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/d2/a3/b5/d2a3b5566bd3f6d4cc2228ec9024bcd4.jpg" },
+      { "albumId": 5, "id": 14, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/564x/4c/67/c6/4c67c6dd11c9b2dd48a02e13756b96a8.jpg", "thumbnailUrl": "https://i.pinimg.com/564x/4c/67/c6/4c67c6dd11c9b2dd48a02e13756b96a8.jpg" },
+      { "albumId": 5, "id": 15, "title": "officia delectus consequatur vero aut veniam explicabo molestias", "url": "https://i.pinimg.com/736x/4c/8e/2f/4c8e2f0e9821289f510590e5cbca022e.jpg", "thumbnailUrl": "https://i.pinimg.com/736x/4c/8e/2f/4c8e2f0e9821289f510590e5cbca022e.jpg" }
+
+    ]
+  }
+  
